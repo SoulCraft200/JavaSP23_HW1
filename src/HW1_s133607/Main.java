@@ -88,6 +88,6 @@ public class Main {
         double slope = (lineP2.getY() - lineP1.getY()) / (lineP2.getX() - lineP1.getX());
         System.out.println("The slope of the line passing through ( 0, "+lineP1.getY()+" ) and ( 100, "+lineP2.getY()+" ) is "+slope);
 
-        infile.close();v
+        infile.close();
     }
 }
